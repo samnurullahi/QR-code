@@ -1,0 +1,47 @@
+@font-face {
+    font-family: shbnim;
+    src: url(font/shabnam-font-v5.0.1/shabnam-font-v5.0.1/Shabnam-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: shbnim;
+}
+body{
+    background-color: #8fb7ff;
+}
+p{
+    font-size: 13px;
+    margin: 10px auto;
+}
+.cont{
+    margin: 80px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+}
+.cont form button , input{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 0;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+.cont form input {
+    border: 2px solid #CCc;
+} 
+.cont form button{
+    background-color: #8fb7ff;
+}
+.cont .img{
+    text-align: center;
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+}
+.hiddn{
+    display: none;
+}
